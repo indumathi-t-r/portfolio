@@ -14,4 +14,4 @@ Python | PyTorch | TensorFlow | JavaScript | React | SQL | ETL
 - **Job Tracker**: Chrome extension for application tracking
 
 ## Contact
-📧 indumathi@example.com | 💼 [LinkedIn](https://www.linkedin.com/in/indumathi-t-9b28751b1/)
+📧 indhuswa@gmail.com | 💼 [LinkedIn](https://www.linkedin.com/in/indumathi-t-9b28751b1/)
