@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Indumathi Thamizharasan | AI & ML Engineer</title>
+  <meta name="description" content="Portfolio of Indumathi Thamizharasan — AI/ML Engineer specializing in Computer Vision, Deep Learning, and real-time ML systems." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- Top Bar -->
+  <header class="topbar">
+    <div class="topbar-inner">
+      <!-- Brand/Logo -->
+      <a href="#home" class="brand">Indu.</a>
+      
+      <!-- Mobile Menu Toggle -->
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+        ☰
+      </button>
+
+      <!-- Navigation Menu -->
+      <div class="nav-right" id="navMenu">
+        <nav class="navlinks">
+          <a href="#home" class="navlink active">Home</a>
+          <a href="#experience" class="navlink">Experience</a>
+          <a href="#skills" class="navlink">Skills</a>
+          <a href="#projects" class="navlink">Projects</a>
+          <a href="#contact" class="navlink">Contact</a>
+        </nav>
+
+        <!-- Theme Toggle -->
+        <button id="themeToggle" class="toggle" aria-label="Toggle dark mode">
+          <span class="toggle-icon" aria-hidden="true">🌙</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+<!-- HOME SECTION (Hero + About Two-Column Layout) -->
+<section id="home" class="home-section">
+
+  <div class="container">
+    <div class="home-grid">
+      
+      <!-- LEFT COLUMN: Hero Content -->
+      <div class="hero-content">
+        <p class="greeting">Hi, I'm</p>
+        <h1 class="gradient-name">
+          Indumathi <span class="wave">👋</span>
+        </h1>
+        
+        <p class="tagline">
+          <span class="typed-role" id="role-text"></span>
+        </p>
+        
+        <p class="subtitle">
+          I build scalable, reliable software systems with strong data and AI foundations.
+        </p>
+
+        <div class="cta">
+          <a class="btn btn-primary" href="#projects">View Projects</a>
+          <a class="btn btn-secondary" href="./assets/Indumathi_T_SDA.pdf" target="_blank">
+            Download Resume
+          </a>
+        </div>
+      </div>
+
+      <!-- RIGHT COLUMN: About Card -->
+      <div class="about-card">
+        <div class="about-card-inner">
+          <h2>About Me</h2>
+          
+          <p>
+            I'm a <strong>Computer Science graduate from the University at Buffalo (SUNY)</strong>,
+            specializing in <strong>Artificial Intelligence and Machine Learning</strong>.
+            My academic focus is on building intelligent systems that are reliable, interpretable,
+            and suitable for real-world deployment.
+          </p>
+
+          <p>
+            Prior to graduate school, I spent <strong>two years at Accenture</strong>, gaining industry experience
+            in data and software systems and developing a strong foundation in professional engineering practices.
+            This background continues to inform how I approach scalable, production-oriented AI solutions.
+          </p>
+
+          <!-- Stats -->
+          <div class="about-stats">
+            <div class="stat-item">
+              <span class="stat-number">2+</span>
+              <span class="stat-label">Years Experience</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">8+</span>
+              <span class="stat-label">ML Projects</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</section>
+
+  <!-- EXPERIENCE -->
+<section id="experience" class="experience-section-premium">
+  <div class="container">
+    <!-- Section Header -->
+    <div class="experience-header">
+      <h2>EXPERIENCE</h2>
+    </div>
+
+    <!-- Experience Items -->
+    <div class="experience-timeline">
+      
+      <!-- Experience 1: Data Engineering Analyst -->
+      <article class="experience-item">
+        <div class="experience-number">1.</div>
+        <div class="experience-content">
+          <div class="experience-meta">
+            <div class="experience-title-group">
+              <h3 class="experience-role">DATA ENGINEERING ANALYST</h3>
+              <p class="experience-company">Accenture</p>
+            </div>
+            <div class="experience-date">
+              <span> March 2024 – August 2024</span>
+              <span class="experience-location">Chennai, India</span>
+            </div>
+          </div>
+          
+          <div class="experience-description">
+            <p>Designed and optimized large-scale data infrastructure supporting analytics workloads for enterprise clients. Led development of complex BigQuery stored procedures and SQL queries that processed millions of records daily, improving query performance and reducing compute costs through strategic optimization and schema design.</p>
+            
+            <p>Automated end-to-end ETL pipelines using Talend and Automic Scheduler, establishing monitoring frameworks that reduced manual intervention and improved system reliability. Implemented comprehensive data validation and quality checks across production systems, ensuring accuracy and consistency of downstream analytics.</p>
+            
+            <p class="experience-recognition">
+              Recognized for contributions to data quality initiatives and delivery excellence in <button class="cert-inline-link" data-cert="award1">February 2024</button>. Received multiple client appreciation awards in <button class="cert-inline-link" data-cert="award2">July 2023</button> and <button class="cert-inline-link" data-cert="award3">March 2023</button> for consistent technical execution, reliability, and impact on critical data infrastructure projects.
+            </p>
+          </div>
+
+          <div class="experience-tags">
+            <span>BigQuery</span>
+            <span>SQL</span>
+            <span>Talend ETL</span>
+            <span>Automic Scheduler</span>
+            <span>GCP</span>
+            <span>Data Quality</span>
+            <span>Python</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- Experience 2: Data Engineering Associate -->
+      <article class="experience-item">
+        <div class="experience-number">2.</div>
+        <div class="experience-content">
+          <div class="experience-meta">
+            <div class="experience-title-group">
+              <h3 class="experience-role">DATA ENGINEERING ASSOCIATE</h3>
+              <p class="experience-company">Accenture</p>
+            </div>
+            <div class="experience-date">
+              <span>August 2022 – February 2024</span>
+              <span class="experience-location">Bengaluru, India</span>
+            </div>
+          </div>
+          
+          <div class="experience-description">
+            <p>Built and maintained data ingestion pipelines on Google Cloud Platform, loading enterprise data at scale into BigQuery for analytics and reporting. Developed Python preprocessing scripts to transform diverse source formats into BigQuery-compatible structures, handling edge cases and ensuring data integrity throughout the ingestion process.</p>
+            
+            <p>Performed SQL development and validation using DBeaver, maintaining comprehensive documentation for data ingestion workflows and transformation logic. Collaborated with cross-functional teams to troubleshoot production issues and implement solutions that improved pipeline stability.</p>
+            
+            <p class="experience-recognition">
+              <button class="cert-inline-link" data-cert="promotion">Promoted to Data Engineering Analyst</button> within first year based on technical contributions, ownership, and consistent delivery of high-quality solutions.
+            </p>
+          </div>
+
+          <div class="experience-tags">
+            <span>Python</span>
+            <span>GCP</span>
+            <span>BigQuery</span>
+            <span>SQL</span>
+            <span>DBeaver</span>
+            <span>ETL Pipelines</span>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- Certificate Modal -->
+<div id="certModal" class="cert-modal">
+  <div class="cert-modal-content">
+    <button class="cert-close" aria-label="Close certificate">&times;</button>
+    <img id="certImage" src="" alt="Certificate" style="display: none;">
+    <a id="certDownload" href="" download class="cert-download-btn">Download Certificate</a>
+  </div>
+</div>
+
+
+  <!-- SKILLS -->
+  <section id="skills" class="skills-section">
+    <div class="container">
+      <h2 class="skills-title">Technologies</h2>
+  
+      <!-- Tabs -->
+      <div class="skills-tabs" role="tablist" aria-label="Skill categories">
+        <button class="tab active" data-filter="all" type="button">All</button>
+        <button class="tab" data-filter="languages" type="button">Languages</button>
+        <button class="tab" data-filter="frameworks" type="button">Frameworks</button>
+        <button class="tab" data-filter="tools" type="button">Tools</button>
+      </div>
+  
+      <!-- Grid -->
+      <div class="skills-grid" id="skillsGrid">
+        <!-- Languages -->
+        <div class="skill-item" data-category="languages" data-label="Python">
+          <img src="./assets/images/logos/python.svg" alt="Python">
+        </div>
+  
+        <div class="skill-item" data-category="languages" data-label="Java">
+          <img src="./assets/images/logos/java.svg" alt="Java">
+        </div>
+  
+        <div class="skill-item" data-category="languages" data-label="MySQL">
+          <img src="./assets/images/logos/mysql.svg" alt="MySQL">
+        </div>
+  
+        <!-- Frameworks -->
+        <div class="skill-item" data-category="frameworks" data-label="PyTorch">
+          <img src="./assets/images/logos/pytorch.svg" alt="PyTorch">
+        </div>
+  
+        <div class="skill-item" data-category="frameworks" data-label="TensorFlow">
+          <img src="./assets/images/logos/tensorflow.svg" alt="TensorFlow">
+        </div>
+  
+        <!-- Tools -->
+        <div class="skill-item" data-category="tools" data-label="Docker">
+          <img src="./assets/images/logos/docker.svg" alt="Docker">
+        </div>
+  
+        <div class="skill-item" data-category="tools" data-label="Google Cloud">
+          <img src="./assets/images/logos/gcp.svg" alt="Google Cloud">
+        </div>
+  
+        <div class="skill-item" data-category="tools" data-label="GitHub">
+          <img class="invert-on-dark" src="./assets/images/logos/github.svg" alt="GitHub">
+        </div>
+  
+        <div class="skill-item" data-category="tools" data-label="Linux">
+          <img src="./assets/images/logos/linux.svg" alt="Linux">
+        </div>
+      </div>
+  
+      <!-- Optional bullets (keep if you want) -->
+      <div class="flip-grid">
+
+        <div class="flip-card">
+          <div class="flip-inner">
+            <div class="flip-front">
+              <h3>Programming Languages</h3>
+              <p>Core languages I use for building systems.</p>
+            </div>
+            <div class="flip-back">
+              <h3>Programming Languages</h3>
+              <ul>
+                <li>Python</li>
+                <li>Java</li>
+                <li>C / C++</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      
+        <div class="flip-card">
+          <div class="flip-inner">
+            <div class="flip-front">
+              <h3>Web</h3>
+              <p>Frontend fundamentals for portfolio + apps.</p>
+            </div>
+            <div class="flip-back">
+              <h3>Web</h3>
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      
+        <div class="flip-card">
+          <div class="flip-inner">
+            <div class="flip-front">
+              <h3>Database</h3>
+              <p>Querying, schema design, and analytics.</p>
+            </div>
+            <div class="flip-back">
+              <h3>Database</h3>
+              <ul>
+                <li>SQL</li>
+                <li>MySQL</li>
+                <li>BigQuery</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      
+        <div class="flip-card">
+          <div class="flip-inner">
+            <div class="flip-front">
+              <h3>ML / Data</h3>
+              <p>Training, evaluation, and pipelines.</p>
+            </div>
+            <div class="flip-back">
+              <h3>ML / Data</h3>
+              <ul>
+                <li>PyTorch, TensorFlow</li>
+                <li>Precision / Recall / F1</li>
+                <li>ETL, Data Pipelines</li>
+                <li>Docker, GCP</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      
+      </div>
+      
+  </section>    
+
+  <!-- PROJECTS -->
+  <section id="projects" class="projects-section">
+    <div class="container">
+      <div class="projects-head">
+        <h2>Projects</h2>
+        <p class="muted">Coursework and hands-on projects from my MS in Computer Science (SUNY Buffalo).</p>
+      </div>
+  
+      <!-- Filters -->
+      <div class="project-filters">
+        <button class="pf active" data-filter="all" type="button">All</button>
+        <button class="pf" data-filter="db" type="button">Databases</button>
+        <button class="pf" data-filter="dl" type="button">Deep Learning</button>
+        <button class="pf" data-filter="cv" type="button">Computer Vision</button>
+      </div>
+  
+      <div class="projects-grid" id="projectsGrid">
+  
+        <!-- DMQL -->
+        <article class="project-card" data-category="db">
+          <div class="project-media">
+            <img src="assets/images/projects/student_budget.jpg" alt="Student Budget & Expense Management System">
+            <div class="project-titlebar">
+              <h3>Student Budget & Expense Management System</h3>
+            </div>
+          </div>
+  
+          <!-- Hover overlay -->
+          <div class="project-overlay">
+            <div class="project-overlay-inner">
+              <h3>Student Budget & Expense Management System</h3>
+              <p>
+                Designed a normalized relational DB for student expense tracking with BCNF,
+                constraints, and analytics queries.
+              </p>
+              <div class="project-meta">
+                <span>SQL</span><span>BCNF</span><span>ER Modeling</span>
+              </div>
+  
+              <a class="btn-github" href="https://github.com/indumathi-t-r/student_expense" target="_blank" rel="noreferrer">GitHub</a>
+            </div>
+          </div>
+        </article>
+  
+        <!-- Elder Care -->
+        <article class="project-card" data-category="dl cv">
+          <div class="project-media">
+            <img src="assets/images/projects/elder_care.jpeg" alt="AI-Powered Elder Care Monitoring System">
+            <div class="project-titlebar">
+              <h3>AI-Powered Elder Care Monitoring</h3>
+            </div>
+          </div>
+  
+          <div class="project-overlay">
+            <div class="project-overlay-inner">
+              <h3>AI-Powered Elder Care Monitoring</h3>
+              <p>
+                ResNet18 + LSTM activity recognition with fall detection + email alerts.
+                Achieved 79.04% test accuracy.
+              </p>
+              <div class="project-meta">
+                <span>ResNet18+LSTM</span><span>HMDB51</span><span>Fall Detection</span>
+              </div>
+  
+              <a class="btn-github" href="https://github.com/indumathi-t-r/Elder_care" target="_blank" rel="noreferrer">GitHub</a>
+            </div>
+          </div>
+        </article>
+  
+        <!-- Autoencoders -->
+        <article class="project-card" data-category="dl">
+          <div class="project-media">
+            <img src="assets/images/projects/autoencoders.jpg" alt="Autoencoders for Anomaly Detection">
+            <div class="project-titlebar">
+              <h3>Autoencoders for Anomaly Detection</h3>
+            </div>
+          </div>
+  
+          <div class="project-overlay">
+            <div class="project-overlay-inner">
+              <h3>Autoencoders for Anomaly Detection</h3>
+              <p>
+                Unsupervised anomaly detection using reconstruction error on sensor time-series.
+              </p>
+              <div class="project-meta">
+                <span>Autoencoder</span><span>Time-Series</span><span>Unsupervised</span>
+              </div>
+  
+              <a class="btn-github" href="https://github.com/indumathi-t-r/Autoencoders" target="_blank" rel="noreferrer">GitHub</a>
+            </div>
+          </div>
+        </article>
+  
+        <!-- Transformer -->
+        <article class="project-card" data-category="dl">
+          <div class="project-media">
+            <img src="assets/images/projects/transformer.jpg" alt="Transformer from Scratch in PyTorch">
+            <div class="project-titlebar">
+              <h3>Transformer from Scratch (PyTorch)</h3>
+            </div>
+          </div>
+  
+          <div class="project-overlay">
+            <div class="project-overlay-inner">
+              <h3>Transformer from Scratch (PyTorch)</h3>
+              <p>
+                Implemented attention + positional encodings + training loop for text classification.
+              </p>
+              <div class="project-meta">
+                <span>Transformers</span><span>Attention</span><span>Yelp Polarity</span>
+              </div>
+  
+              <a class="btn-github" href="https://github.com/indumathi-t-r/Transformer_Pytorch" target="_blank" rel="noreferrer">GitHub</a>
+            </div>
+          </div>
+        </article>
+  
+        <!-- Summarization -->
+        <article class="project-card" data-category="dl">
+          <div class="project-media">
+            <img src="assets/images/projects/summarization.jpg" alt="Summarization using LLMs (BillSum)">
+            <div class="project-titlebar">
+              <h3>LLM Summarization (BillSum)</h3>
+            </div>
+          </div>
+  
+          <div class="project-overlay">
+            <div class="project-overlay-inner">
+              <h3>LLM Summarization (BillSum)</h3>
+              <p>
+                Abstractive summarization pipeline for long U.S. bills to concise summaries.
+              </p>
+              <div class="project-meta">
+                <span>NLP</span><span>Summarization</span><span>BillSum</span>
+              </div>
+  
+              <a class="btn-github" href="https://github.com/indumathi-t-r/LLM_Summarization" target="_blank" rel="noreferrer">GitHub</a>
+            </div>
+          </div>
+        </article>
+  
+        <!-- Time Series -->
+        <article class="project-card" data-category="dl">
+          <div class="project-media">
+            <img src="assets/images/projects/time_series.jpg" alt="Time-Series Forecasting using RNNs">
+            <div class="project-titlebar">
+              <h3>Time-Series Forecasting (RNNs)</h3>
+            </div>
+          </div>
+  
+          <div class="project-overlay">
+            <div class="project-overlay-inner">
+              <h3>Time-Series Forecasting (RNNs)</h3>
+              <p>
+                RNN/LSTM forecasting on household power consumption sequences.
+              </p>
+              <div class="project-meta">
+                <span>RNN/LSTM</span><span>Forecasting</span><span>Time-Series</span>
+              </div>
+  
+              <a class="btn-github" href="https://github.com/indumathi-t-r/TimeSeriesRNN" target="_blank" rel="noreferrer">GitHub</a>
+            </div>
+          </div>
+        </article>
+  
+        <!-- Sentiment -->
+        <article class="project-card" data-category="dl">
+          <div class="project-media">
+            <img src="assets/images/projects/sentiment_analysis.jpg" alt="Sentiment Analysis using LSTM">
+            <div class="project-titlebar">
+              <h3>Sentiment Analysis (LSTM)</h3>
+            </div>
+          </div>
+  
+          <div class="project-overlay">
+            <div class="project-overlay-inner">
+              <h3>Sentiment Analysis (LSTM)</h3>
+              <p>
+                LSTM classifier for airline tweet sentiment (pos/neg/neutral).
+              </p>
+              <div class="project-meta">
+                <span>LSTM</span><span>Text Classifier</span><span>Kaggle</span>
+              </div>
+  
+              <a class="btn-github" href="https://github.com/indumathi-t-r/Lstm_SentimentAnalysis" target="_blank" rel="noreferrer">GitHub</a>
+            </div>
+          </div>
+        </article>
+  
+        <!-- Panorama -->
+        <article class="project-card" data-category="cv">
+          <div class="project-media">
+            <img src="assets/images/projects/panorama.jpg" alt="Panorama Stitching & Image Alignment">
+            <div class="project-titlebar">
+              <h3>Panorama Stitching & Alignment</h3>
+            </div>
+          </div>
+  
+          <div class="project-overlay">
+            <div class="project-overlay-inner">
+              <h3>Panorama Stitching & Alignment</h3>
+              <p>
+                Feature matching + homography + blending to build panoramic outputs.
+              </p>
+              <div class="project-meta">
+                <span>Feature Matching</span><span>Homography</span><span>Blending</span>
+              </div>
+  
+              <a class="btn-github" href="https://github.com/indumathi-t-r/StitchingPanorama_Project2" target="_blank" rel="noreferrer">GitHub</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Job Application Tracker -->
+      <article class="project-card" data-category="">
+        <div class="project-media">
+          <img src="assets/images/projects/job_tracker.jpg" alt="Job Application Tracker Chrome Extension">
+          <div class="project-titlebar">
+            <h3>Job Application Tracker</h3>
+          </div>
+        </div>
+
+        <div class="project-overlay">
+          <div class="project-overlay-inner">
+            <h3>Job Application Tracker</h3>
+            <p>
+              Chrome extension for job application tracking. 
+            <div class="project-meta">
+              <span>JavaScript</span><span>Chrome API</span><span>Google Sheets</span><span>Automation</span>
+            </div>
+
+            <a class="btn-github" href="https://github.com/indumathi-t-r/job_applicationTracker" target="_blank" rel="noreferrer">GitHub</a>
+            
+          </div>
+        </div>
+</article>
+  
+      </div>
+    </div>
+  </section>
+  
+  
+  
+
+  <!-- CONTACT -->
+  <section id="contact" class="contact-section">
+    <div class="container contact-wrap">
+  
+      <div class="contact-head">
+        <h2>Get in Touch!</h2>
+        <div class="contact-underline"></div>
+        <p class="contact-subtitle">
+          I'm always excited to hear about new opportunities and collaborations.
+          Don't hesitate to reach out and let's make something great.
+        </p>
+      </div>
+  
+      <div class="contact-grid">
+        <!-- Left: Form -->
+        <div class="contact-card">
+          <h3>Contact Me</h3>
+  
+          <form id="contactForm" class="contact-form" action="https://formspree.io/f/xdakoyao" method="POST">
+            <label class="sr-only" for="name">Name</label>
+            <input id="name" name="name" type="text" placeholder="Name" required />
+          
+            <label class="sr-only" for="email">Email</label>
+            <input id="email" name="email" type="email" placeholder="Email" required />
+          
+            <label class="sr-only" for="message">Message</label>
+            <textarea id="message" name="message" rows="6" placeholder="Your message" required></textarea>
+          
+            <!-- Success / error message area -->
+            <div id="formStatus" class="form-status" aria-live="polite"></div>
+          
+            <button class="contact-btn" type="submit">Get In Touch</button>
+          </form>          
+        </div>
+
+        
+  
+        <!-- Right: Illustration -->
+        <div class="contact-visual" aria-hidden="true">
+          <img src="assets/images/contact_illustration.png" alt="">
+        </div>
+      </div>
+       <!-- ADD SOCIAL LINKS HERE -->
+       <div class="contact-social">
+        <div class="social-links">
+          <a href="https://www.linkedin.com/in/indumathi-t-9b28751b1/" target="_blank" rel="noopener noreferrer" class="social-link linkedin" aria-label="LinkedIn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+            </svg>
+            <span>LinkedIn</span>
+          </a>
+          <a href="https://github.com/indumathi-t-r" target="_blank" rel="noopener noreferrer" class="social-link github" aria-label="GitHub">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+            </svg>
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+      
+    </div>
+  
+    </div>
+  </section>
+  
+
+  <script src="script.js"></script>
+</body>
+</html>
